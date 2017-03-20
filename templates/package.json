@@ -1,0 +1,31 @@
+{
+    "name": "react-webpack-hmr",
+    "version": "1.0.0",
+    "description": "Setup react with babel to work with es6 and run application in Webpack dev server with hmr (hot module replacement)",
+    "main": "index.js",
+    "repository": "kevalbhatt/react-webpack-hmr",
+    "author": {
+        "name": "Keval Bhatt",
+        "email": "kbhatt@apache.org, kevalbhatt18@gmail.com",
+        "url": "github.com/kevalbhatt"
+    },
+    "dependencies": {
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.4.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "babel-preset-react-hmre": "^1.1.1",
+        "webpack": "^2.2.1",
+        "webpack-dev-server": "^2.4.2"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --progress --inline --hot --open",
+        "build": "webpack -p",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT"
+}
