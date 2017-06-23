@@ -31,6 +31,9 @@ Note: the above steps are only for the first time, from the next time you need t
 ```bash
 $ npm start
 ```
+## Output
+
+![Imgur](http://i.imgur.com/leG2HLh.png)
 
 ## Getting To Know Slush
 
