@@ -24,6 +24,13 @@ Run the generator from within the new folder:
 ```bash
 $ cd my-slush-react-webpack-hmr && slush react-webpack-hmr
 ```
+The slush react-webpack-hmr will do npm install and run the server, in case if server will not start by slush script at very first time the rum npm start.
+
+Note: the above steps are only for the first time, from the next time you need to run only one command.
+
+```bash
+$ npm start
+```
 
 ## Getting To Know Slush
 
